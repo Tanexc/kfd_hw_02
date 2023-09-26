@@ -1,6 +1,6 @@
 # Описание
 - В решении содержится интерфейс <a href="src/main/kotlin/domain/interfaces/Moveable.kt">Moveable</a>, сожержащий в себе переменные массы и максимальной скорости
-- Класс <a href="src/main/kotlin/domain/model/Vehicle">Vehicle</a> реализует интерфейс Moveable и расширяет его некоторыми свойставми присущими траспорным средствам
+- Класс <a href="src/main/kotlin/domain/model/Vehicle">Vehicle</a> реализует интерфейс Moveable и расширяет его некоторыми свойставми, присущими траспорным средствам
 - sealed класс <a href="src/main/kotlin/domain/model/Passenger.kt">Passenger</a> реализует интерфейс Moveable. От него наследуются классы Adult и Child
 - sealed классы <a href="src/main/kotlin/domain/model/Bus.kt">Bus</a>, <a href="src/main/kotlin/domain/model/Ship.kt">Ship</a>, <a href="src/main/kotlin/domain/model/VehicleTransporterBus.kt">VehicleTransporterBus</a>, <a href="src/main/kotlin/domain/model/Bicycle.kt">Bicycle</a> наследуются от Vehicle с реализацией некоторых особенностей отдельного транспорта
 # Проверка решения

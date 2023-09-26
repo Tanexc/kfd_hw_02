@@ -40,6 +40,6 @@ fun busDemo() {
 
     vehicleTransporter.increaseSpeed(20f)
     println("result of increasing speed by 20: ${vehicleTransporter.currentSpeed}")
-
+    println("\n\n")
 
 }

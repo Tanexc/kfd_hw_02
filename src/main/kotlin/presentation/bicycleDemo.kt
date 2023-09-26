@@ -20,4 +20,5 @@ fun bicycleDemo() {
 
     bicycleOverloaded.increaseSpeed(35f)
     println("result of increasing speed of overloaded dual bicycle by 35: ${bicycleOverloaded.currentSpeed} ")
+    println("\n\n")
 }

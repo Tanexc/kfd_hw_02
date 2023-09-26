@@ -17,4 +17,5 @@ fun shipDemo() {
     println("waterline before drop off is ${bigShip.getWaterlineLoad()}")
     bigShip.dropOffPassengers()
     println("waterline after drop off is ${bigShip.getWaterlineLoad()}")
+    println("\n\n")
 }
